@@ -1,0 +1,102 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Centering the login container and setting background */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    padding: 20px;
+}
+
+/* Styling the login container */
+.login-container {
+    background-color: #fff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px; /* Limits the width to 400px */
+    text-align: center;
+}
+
+.logo{
+   size: 10px;
+}
+
+/* Header styling */
+.login-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Styling input groups */
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+/* Label styling */
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+/* Input field styling */
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Button styling */
+.login-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #6e8efb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+/* Button hover effect */
+.login-button:hover {
+    background-color: #5a74d1;
+}
+
+footer{
+    margin-top: 50px;
+    margin-bottom: 3px;
+    font-weight: bolder;
+    background: #6e8efb;
+    color: white;
+}
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+    .login-container {
+        padding: 15px 20px;
+    }
+
+    .input-group input {
+        padding: 8px;
+    }
+
+    .login-button {
+        padding: 10px;
+        font-size: 14px;
+    }
+}
